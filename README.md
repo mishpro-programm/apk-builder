@@ -8,7 +8,7 @@ Simple termux package to build apks.
 ##### AndroidManifest.xml
 ##### main.ks
 ##### obj/
-### Command:
+### Usage:
 ``` shell
 apk-builder --j src --r res --m AndroidManifest.xml --i $PREFIX/share/java/android-24.jar --obj obj --k main.ks --kp 12345678
 ```
